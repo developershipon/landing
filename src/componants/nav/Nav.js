@@ -47,13 +47,13 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-xl"
+              className="font-bold leading-relaxed inline-block mr-4 whitespace-nowrap uppercase text-xl h-10 w-24"
               href=""
             >
               <Image
                 img="images/Meta-Logo.png"
                 alt="img"
-                className="h-10 w-full"
+                className="h-full w-full"
               />
             </a>
             <button
@@ -66,11 +66,11 @@ const Navbar = () => {
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center" +
+              "lg:flex flex-grow items-center w-52 md:w-auto" +
               (navbarOpen ? " flex " : " hidden")
             }
           >
-            <ul className="flex flex-col lg:flex-row list-none ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               {menuItems.map((menu, index) => (
                 <li className="nav-item" key={menu.id}>
                   <div

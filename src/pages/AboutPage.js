@@ -14,7 +14,7 @@ const AboutPage = () => {
         className="container py-10 sm:py-5 mt-6 sm:mt-12 mx-auto overflow-hidden"
       >
         <div
-          className="text-center mx-auto w-1/3 xl:w-96 py-20 text-slate-800"
+          className="text-center mx-auto w-1/2 sm:w-1/3 xl:w-96 py-10 xl:py-20 text-slate-800"
           data-aos="fade-up"
         >
           <Heading value="About Us" />
